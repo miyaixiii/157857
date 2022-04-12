@@ -1,0 +1,99 @@
+.body{
+    min-height: 100vh
+}
+.head{
+    position: fixed;
+    z-index: 2;
+}
+.back{
+    overflow-x:hidden;
+    overflow-y:hidden;
+    position:absolute;
+    width: 100%;
+    z-index: -1;
+}
+.back1{
+    position: relative;
+    top: -50px;
+    left:-20px;
+    animation: animal 40s infinite linear;
+    transform-origin: 15% 50% 0 ;
+
+
+}
+.back2{
+      position: 5px;  
+    left:300px;
+    animation: animal 25s infinite linear;
+    transform-origin: 15% 50% 0;
+
+
+}
+.back3{
+    position: absolute;  
+    right:-200px;
+    top:-25px;
+   animation: animal 38s infinite linear;
+    transform-origin: 40% 50% 0;
+
+
+}
+.back4{
+    position: absolute;  
+    top:20%;
+    left: 40%;
+    animation: animal 40s infinite linear;
+    transform-origin: 40% 50% 0;
+}
+.back5{
+    position: absolute;  
+    bottom: -100px;
+    right: -300px;
+    animation: animal 40s infinite linear;
+    transform-origin: 40% 50% 0;
+
+}
+.back6{
+    position: absolute;  
+    top: -400px;
+    right: 350px;
+    animation: animal 35s infinite linear;
+    transform-origin: 40% 50% 0;
+
+}
+@keyframes animal {
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(-360deg);
+
+    }
+}
+
+.cdd{
+    position:absolute;
+    top:200px;
+    left:80px;
+
+}
+.cd{
+    position:absolute;
+    top:200px;
+    left: 250px;
+    z-index: -1;
+    transition:transform 1s;
+
+}
+.cd:hover{
+    transform: translateX(100px);
+}
+.part{
+    position:absolute;
+    top: 160px;
+    left:800px;
+    
+}
+.be{
+    border-radius: 15px;
+}

@@ -1,0 +1,66 @@
+@keyframes moving{
+    from{
+        top:100%;
+    }
+    to{
+       top:-210%; 
+    }
+}
+@keyframes moving1{
+    from{
+        top:-210%;
+    }
+    to{
+       top:100%; 
+    }
+}
+
+.img1{
+    
+    position:absolute;
+    animation: moving 15s linear infinite;
+}
+.img2{
+    position: absolute;
+    left:80%;
+    top: 300px;
+    animation: moving1 15s linear infinite;
+   
+}
+.head{
+    position:fixed;
+    left: 40%;
+    z-index: 2;
+}
+.bar{
+    position:fixed;
+    left: 53%;
+    z-index: 2;
+    top:50px;
+}
+.pic{
+    position:fixed ;
+    float: left;
+    top: 200px;
+    left: 200px; 
+    border-radius: 15px;    
+}
+.back{
+    top:10%;
+    left: 30%;
+    position:absolute;
+    z-index: -1;
+}
+
+.sen{
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 10px;
+    width: 500;
+    margin: 50px 0px 30px 0px;
+    text-align: center;
+   
+}
+.name>.href{
+    text-decoration: none;
+}
